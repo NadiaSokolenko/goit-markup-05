@@ -348,14 +348,11 @@ border-bottom: 1px solid #ececec;
     background-color: var(--white);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    background-color: var(--white);
     transition: fill var(--transition-duration) var(--timing-function);
 }
 
 .close-button:hover,
 .close-button:focus {
-    border: 1px solid var(--active-text);
-    background-color: var(--white);
     box-shadow: none;
 }
 

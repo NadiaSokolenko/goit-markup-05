@@ -51,7 +51,7 @@
         <section class="hero-section">
             <div class="hero-container container">
                 <h1 class="hero-heading">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-                <button type="button" class="button-request">
+                <button type="button" class="button-request" data-modal-open>
                     Request our service
                 </button>
             </div>
@@ -113,12 +113,15 @@
       <section class="section">
             <h2 class="section-title what">What we do</h2>
             <ul class="container pictures-container">
-                <li class="list">
+                <li class="list label-list">
                 <!--image-->
                 <img 
                 src="./images/box 1.jpg" 
                 alt="box" 
                 width="370">
+                <div class="label">
+                  <p class="label-title">DESKTOP APPS</p>
+                </div>
                 </li>
                 <li class="list">
                 <!--image-->
@@ -126,6 +129,9 @@
                 src="./images/box 2.jpg" 
                 alt="box" 
                 width="370">
+                <div class="label">
+                  <p class="label-title">MOBILE APPS</p>
+                </div>
                 </li>
                 <li class="list">
                 <!--image-->
@@ -133,6 +139,9 @@
                 src="./images/box 3.jpg" 
                 alt="box" 
                 width="370">
+                <div class="label">
+                  <p class="label-title">DESIGN SOLUTIONS</p>
+                </div>
                 </li>
             </ul>
     </section>
@@ -365,5 +374,17 @@
         </div>
        </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <div>
+          <button type="button" class="close-button" data-modal-close>
+            <svg class="icon-close-modal" width="11px" height="11px">
+              <use href="./images/symbol-defs.svg#icon-icon-close-button"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
